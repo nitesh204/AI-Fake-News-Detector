@@ -27,7 +27,7 @@ const animatedPulse =
 
 // Modern accent for dashboard title
 const animatedTitle = `
-  bg-gradient-to-r from-red-500 via-red-600 to-red-500
+  bg-gradient-to-r from-blue-500 via-violet-500 to-indigo-500
   bg-clip-text text-transparent inline-block
   font-extrabold drop-shadow-lg
 `
@@ -124,7 +124,7 @@ export default function SimpleDashboard() {
                   Demo Mode Active
                 </p>
                 <p className="text-xs text-orange-600">
-                  Backend unavailable. Showing mock data for demo purposes.
+                   Showing mock data for demo purposes.
                 </p>
               </div>
             </CardContent>
